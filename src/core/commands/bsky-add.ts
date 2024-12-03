@@ -86,7 +86,7 @@ export default class implements SlashCommand {
             .then(response => response.actors[0])
 
         if (!actor) {
-            await interaction.editReply("Could not find a Bluesky account matching your input.\nEnsure you enter the entire Bluesky account handle, ex `mintfantome.bsky.social` or ensure that you click the auto-completed suggestion before submitting.")
+            await interaction.editReply("Could not find a Bluesky account matching your input.\nEnsure you enter the entire Bluesky account handle, ex `mintfantome.ghostmaid.cafe` or ensure that you click the auto-completed suggestion before submitting.")
             return
         }
 
