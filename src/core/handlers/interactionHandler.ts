@@ -3,7 +3,7 @@ import {CustomClient} from "../../support/discord/clientManager";
 import {handleChannelSelectMenu, handleRoleSelectMenu, handleStringSelectMenu} from "./componentHandler";
 
 export async function handleInteraction(interaction: Interaction, client: CustomClient): Promise<void> {
-  if (!interaction.isCommand() && !interaction.isAutocomplete() && !interaction.isButton() && !interaction.isModalSubmit() && !interaction.isStringSelectMenu() && interaction.isRoleSelectMenu() && interaction.isChannelSelectMenu()) return;
+  if (!interaction.isCommand() && !interaction.isAutocomplete() && !interaction.isButton() && !interaction.isModalSubmit() && !interaction.isStringSelectMenu() && !interaction.isRoleSelectMenu() && !interaction.isChannelSelectMenu()) return;
 
   if (interaction.isButton() || interaction.isModalSubmit() || interaction.isUserSelectMenu() || interaction.isMentionableSelectMenu()){
     return;
