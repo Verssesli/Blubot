@@ -115,6 +115,7 @@ Check and change settings for a tracked Bluesky account.
 ---
 
 **Note:** These commands require the user to have the `Moderate Members` permission.
+Full documentation is available here: http://docs.verssesli.com/blubot
 
 ## Self-Hosting
 
@@ -192,11 +193,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Privacy Policy
 
-*(Privacy policy details to be added.)*
+Please see privacy policy here: [Link to Privacy Policy](https://verssesli.notion.site/Privacy-Policy-134ae900ae9e8119b628e1795b9ab7d3)
 
 ## Contact
 
-For questions or support, please contact [your contact information here].
+For questions or support, please contact @Verssesli on Discord.
 
 ## Acknowledgements
 Blubot is possible thanks to the work of these wonderful groups:
