@@ -2,7 +2,7 @@
 
 [![Discord Invite](https://img.shields.io/badge/Discord-Invite%20Blubot-7289DA?logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1298290046532718592)
 
-Blubot is a Discord bot that relays posts, reposts, quote reposts, and replies from [Bluesky](https://bluesky.social/) to Discord, keeping your community updated with the latest content.
+Blubot is a Discord bot that relays posts, reposts, quote reposts, and replies from [Bluesky](https://bluesky.social/) to Discord.
 
 ## Table of Contents
 
@@ -23,9 +23,12 @@ Blubot is a Discord bot that relays posts, reposts, quote reposts, and replies f
 
 ## Features
 
-- **Post Relay**: Automatically forwards new posts from Bluesky to specified Discord channels.
-- **Reposts and Quote Reposts**: Notifies your Discord server about reposts and quote reposts.
-- **Replies**: Shares replies from Bluesky to keep your Discord members engaged in ongoing discussions.
+- **Post Relay**: Automatically forwards new posts from Bluesky to specified Discord channels. Supported post types:
+  - `Posts`
+  - `Reposts`
+  - `Quote Reposts`
+  - `Replies`
+- **Send as Webhook**: Send posts as a Discord webhook, which inherit the username and pfp of the account instead of the bot
 
 ## Invite Blubot to Your Server
 
@@ -196,5 +199,7 @@ This project is licensed under the [MIT License](LICENSE).
 For questions or support, please contact [your contact information here].
 
 ## Acknowledgements
-
-- Special thanks to the [Bluesky](https://bluesky.social/), [discord.js](https://discord.js.org/), and [Discord](https://discord.com/) communities for their support and tools.
+Blubot is possible thanks to the work of these wonderful groups:
+- [Bluesky](https://bluesky.social/)
+- [discord.js](https://discord.js.org/)
+- [Discord](https://discord.com/) 
