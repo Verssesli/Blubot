@@ -129,3 +129,22 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+/db/db_files/
+# --- added for git-based deploy (2026-11-23) ---
+node_modules/
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+*.db-*
+token.json
+cookies.json
+.idea/
+__pycache__/
+
+
